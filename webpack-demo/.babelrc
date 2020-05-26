@@ -1,0 +1,13 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "useBuiltIns": "usage",
+        "targets": {
+          "chrome": "67" // 大于67的版本就不注入
+        }
+      }
+    ]
+  ]
+}
