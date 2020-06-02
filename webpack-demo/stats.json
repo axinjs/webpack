@@ -1,0 +1,702 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.43.0",
+  "hash": "f4cb81c0a7bcc0bf1d07",
+  "time": 1056,
+  "builtAt": 1590675551534,
+  "publicPath": "./",
+  "outputPath": "/Users/axin/codes/juejin/webpack/webpack/webpack-demo/dist",
+  "assetsByChunkName": {
+    "main": "main.js"
+  },
+  "assets": [
+    {
+      "name": "0.main.js",
+      "size": 1221,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "index.html",
+      "size": 227,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "main.js",
+      "size": 39676,
+      "chunks": [
+        "main"
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "info": {},
+      "emitted": true
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "main": {
+      "chunks": [
+        "main"
+      ],
+      "assets": [
+        "main.js"
+      ],
+      "children": {
+        "prefetch": [
+          {
+            "name": null,
+            "chunks": [
+              0
+            ],
+            "assets": [
+              "0.main.js"
+            ]
+          }
+        ]
+      },
+      "childAssets": {
+        "prefetch": [
+          "0.main.js"
+        ]
+      }
+    }
+  },
+  "namedChunkGroups": {
+    "main": {
+      "chunks": [
+        "main"
+      ],
+      "assets": [
+        "main.js"
+      ],
+      "children": {
+        "prefetch": [
+          {
+            "name": null,
+            "chunks": [
+              0
+            ],
+            "assets": [
+              "0.main.js"
+            ]
+          }
+        ]
+      },
+      "childAssets": {
+        "prefetch": [
+          "0.main.js"
+        ]
+      }
+    }
+  },
+  "chunks": [
+    {
+      "id": 0,
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 160,
+      "names": [],
+      "files": [
+        "0.main.js"
+      ],
+      "hash": "3d7e58d8a7d815dff756",
+      "siblings": [],
+      "parents": [
+        "main"
+      ],
+      "children": [],
+      "childrenByOrder": {},
+      "modules": [
+        {
+          "id": "./src/click.js",
+          "identifier": "/Users/axin/codes/juejin/webpack/webpack/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/axin/codes/juejin/webpack/webpack/webpack-demo/src/click.js",
+          "name": "./src/click.js",
+          "index": 1,
+          "index2": 1,
+          "size": 160,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": "/Users/axin/codes/juejin/webpack/webpack/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/axin/codes/juejin/webpack/webpack/webpack-demo/src/com.js",
+          "issuerId": "./src/com.js",
+          "issuerName": "./src/com.js",
+          "issuerPath": [
+            {
+              "id": "./src/com.js",
+              "identifier": "/Users/axin/codes/juejin/webpack/webpack/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/axin/codes/juejin/webpack/webpack/webpack-demo/src/com.js",
+              "name": "./src/com.js",
+              "profile": {
+                "factory": 138,
+                "building": 761
+              }
+            }
+          ],
+          "profile": {
+            "factory": 12,
+            "building": 53
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "./src/com.js",
+              "moduleIdentifier": "/Users/axin/codes/juejin/webpack/webpack/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/axin/codes/juejin/webpack/webpack/webpack-demo/src/com.js",
+              "module": "./src/com.js",
+              "moduleName": "./src/com.js",
+              "type": "import()",
+              "userRequest": "./click.js",
+              "loc": "20:2-22:15"
+            }
+          ],
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [],
+          "depth": 1,
+          "source": "export default function addComponent() {\n  const element = document.createElement('div');\n  element.innerHTML = 'jsxin';\n  document.body.appendChild(element);\n}"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "moduleId": "./src/com.js",
+          "module": "/Users/axin/codes/juejin/webpack/webpack/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/axin/codes/juejin/webpack/webpack/webpack-demo/src/com.js",
+          "moduleIdentifier": "/Users/axin/codes/juejin/webpack/webpack/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/axin/codes/juejin/webpack/webpack/webpack-demo/src/com.js",
+          "moduleName": "./src/com.js",
+          "loc": "20:2-22:15",
+          "request": "./click.js",
+          "reasons": []
+        }
+      ]
+    },
+    {
+      "id": "main",
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "size": 810,
+      "names": [
+        "main"
+      ],
+      "files": [
+        "main.js"
+      ],
+      "hash": "ad0fca2c0657e31bd27c",
+      "siblings": [],
+      "parents": [],
+      "children": [
+        0
+      ],
+      "childrenByOrder": {
+        "prefetch": [
+          0
+        ]
+      },
+      "modules": [
+        {
+          "id": "./src/com.js",
+          "identifier": "/Users/axin/codes/juejin/webpack/webpack/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/axin/codes/juejin/webpack/webpack/webpack-demo/src/com.js",
+          "name": "./src/com.js",
+          "index": 0,
+          "index2": 0,
+          "size": 810,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "main"
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "profile": {
+            "factory": 138,
+            "building": 761
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "./src/com.js",
+              "loc": "main"
+            }
+          ],
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 0,
+          "source": "// function getComponentbak(){\n//   return import(/* webpackChunkName: \"loadsh\" */'lodash').then(({ default: _}) => {\n//     var element = document.createElement('div')\n//     element.innerHTML = _.join(['jsxin', 'hello'], '-')\n//     return element\n//   })\n// }\n// async function getComponent() {\n//   const { default: _ } = await import(/* webpackChunkName: \"loadsh\" */'lodash')\n//     const element = document.createElement('div')\n//     element.innerHTML = _.join(['jsxin', 'hello'], '-')\n//     return element\n// }\n// document.addEventListener('click', () => {\n//   getComponent().then(element => {\n//     document.body.appendChild(element)\n//   })\n// })\ndocument.addEventListener('click', () => {\n  import(\n  /* webpackPrefetch: true */\n  './click.js').then(({\n    default: _\n  }) => {\n    _();\n  });\n});"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "main",
+          "request": "./src/com.js",
+          "reasons": []
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "id": "./src/click.js",
+      "identifier": "/Users/axin/codes/juejin/webpack/webpack/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/axin/codes/juejin/webpack/webpack/webpack-demo/src/click.js",
+      "name": "./src/click.js",
+      "index": 1,
+      "index2": 1,
+      "size": 160,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "/Users/axin/codes/juejin/webpack/webpack/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/axin/codes/juejin/webpack/webpack/webpack-demo/src/com.js",
+      "issuerId": "./src/com.js",
+      "issuerName": "./src/com.js",
+      "issuerPath": [
+        {
+          "id": "./src/com.js",
+          "identifier": "/Users/axin/codes/juejin/webpack/webpack/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/axin/codes/juejin/webpack/webpack/webpack-demo/src/com.js",
+          "name": "./src/com.js",
+          "profile": {
+            "factory": 138,
+            "building": 761
+          }
+        }
+      ],
+      "profile": {
+        "factory": 12,
+        "building": 53
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": "./src/com.js",
+          "moduleIdentifier": "/Users/axin/codes/juejin/webpack/webpack/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/axin/codes/juejin/webpack/webpack/webpack-demo/src/com.js",
+          "module": "./src/com.js",
+          "moduleName": "./src/com.js",
+          "type": "import()",
+          "userRequest": "./click.js",
+          "loc": "20:2-22:15"
+        }
+      ],
+      "providedExports": [
+        "default"
+      ],
+      "optimizationBailout": [],
+      "depth": 1,
+      "source": "export default function addComponent() {\n  const element = document.createElement('div');\n  element.innerHTML = 'jsxin';\n  document.body.appendChild(element);\n}"
+    },
+    {
+      "id": "./src/com.js",
+      "identifier": "/Users/axin/codes/juejin/webpack/webpack/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/axin/codes/juejin/webpack/webpack/webpack-demo/src/com.js",
+      "name": "./src/com.js",
+      "index": 0,
+      "index2": 0,
+      "size": 810,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "main"
+      ],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "profile": {
+        "factory": 138,
+        "building": 761
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": null,
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "type": "single entry",
+          "userRequest": "./src/com.js",
+          "loc": "main"
+        }
+      ],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 0,
+      "source": "// function getComponentbak(){\n//   return import(/* webpackChunkName: \"loadsh\" */'lodash').then(({ default: _}) => {\n//     var element = document.createElement('div')\n//     element.innerHTML = _.join(['jsxin', 'hello'], '-')\n//     return element\n//   })\n// }\n// async function getComponent() {\n//   const { default: _ } = await import(/* webpackChunkName: \"loadsh\" */'lodash')\n//     const element = document.createElement('div')\n//     element.innerHTML = _.join(['jsxin', 'hello'], '-')\n//     return element\n// }\n// document.addEventListener('click', () => {\n//   getComponent().then(element => {\n//     document.body.appendChild(element)\n//   })\n// })\ndocument.addEventListener('click', () => {\n  import(\n  /* webpackPrefetch: true */\n  './click.js').then(({\n    default: _\n  }) => {\n    _();\n  });\n});"
+    }
+  ],
+  "filteredModules": 0,
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 5,
+      "debug": false
+    }
+  },
+  "children": [
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "./",
+      "outputPath": "/Users/axin/codes/juejin/webpack/webpack/webpack-demo/dist",
+      "assetsByChunkName": {
+        "HtmlWebpackPlugin_0": "__child-HtmlWebpackPlugin_0",
+        "HtmlWebpackPlugin_1": "__child-HtmlWebpackPlugin_1"
+      },
+      "assets": [
+        {
+          "name": "__child-HtmlWebpackPlugin_0",
+          "size": 5618,
+          "chunks": [
+            "HtmlWebpackPlugin_0"
+          ],
+          "chunkNames": [
+            "HtmlWebpackPlugin_0"
+          ],
+          "info": {},
+          "emitted": false
+        },
+        {
+          "name": "__child-HtmlWebpackPlugin_1",
+          "size": 5993,
+          "chunks": [
+            "HtmlWebpackPlugin_1"
+          ],
+          "chunkNames": [
+            "HtmlWebpackPlugin_1"
+          ],
+          "info": {},
+          "emitted": false
+        }
+      ],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "HtmlWebpackPlugin_0": {
+          "chunks": [
+            "HtmlWebpackPlugin_0"
+          ],
+          "assets": [
+            "__child-HtmlWebpackPlugin_0"
+          ],
+          "children": {},
+          "childAssets": {}
+        },
+        "HtmlWebpackPlugin_1": {
+          "chunks": [
+            "HtmlWebpackPlugin_1"
+          ],
+          "assets": [
+            "__child-HtmlWebpackPlugin_1"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "HtmlWebpackPlugin_0": {
+          "chunks": [
+            "HtmlWebpackPlugin_0"
+          ],
+          "assets": [
+            "__child-HtmlWebpackPlugin_0"
+          ],
+          "children": {},
+          "childAssets": {}
+        },
+        "HtmlWebpackPlugin_1": {
+          "chunks": [
+            "HtmlWebpackPlugin_1"
+          ],
+          "assets": [
+            "__child-HtmlWebpackPlugin_1"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "chunks": [
+        {
+          "id": "HtmlWebpackPlugin_0",
+          "rendered": true,
+          "initial": true,
+          "entry": true,
+          "size": 442,
+          "names": [
+            "HtmlWebpackPlugin_0"
+          ],
+          "files": [
+            "__child-HtmlWebpackPlugin_0"
+          ],
+          "hash": "37c79446d06bbe04c060",
+          "siblings": [],
+          "parents": [],
+          "children": [],
+          "childrenByOrder": {},
+          "modules": [
+            {
+              "id": "./node_modules/html-webpack-plugin/lib/loader.js!./index.html",
+              "identifier": "/Users/axin/codes/juejin/webpack/webpack/webpack-demo/node_modules/html-webpack-plugin/lib/loader.js!/Users/axin/codes/juejin/webpack/webpack/webpack-demo/index.html",
+              "name": "./node_modules/html-webpack-plugin/lib/loader.js!./index.html",
+              "index": 0,
+              "index2": 0,
+              "size": 442,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                "HtmlWebpackPlugin_0"
+              ],
+              "issuer": null,
+              "issuerId": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "profile": {
+                "factory": 42,
+                "building": 34
+              },
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "type": "single entry",
+                  "userRequest": "/Users/axin/codes/juejin/webpack/webpack/webpack-demo/node_modules/html-webpack-plugin/lib/loader.js!/Users/axin/codes/juejin/webpack/webpack/webpack-demo/index.html",
+                  "loc": "HtmlWebpackPlugin_0"
+                }
+              ],
+              "providedExports": null,
+              "optimizationBailout": [],
+              "depth": 0,
+              "source": "var _ = __non_webpack_require__(\"/Users/axin/codes/juejin/webpack/webpack/webpack-demo/node_modules/lodash/lodash.js\");module.exports = function (templateParams) { with(templateParams) {return (function(data) {\nvar __t, __p = '';\n__p += '<!DOCTYPE html>\\n<html>\\n<head>\\n\t<title>我的网页</title>\\n</head>\\n<body>\\n\t<div id=\"root\"></div>\\n</body>\\n<script type=\"text/javascript\" src=\"./dist/dist.js\"></script>\\n</html>';\nreturn __p\n})();}}"
+            }
+          ],
+          "filteredModules": 0,
+          "origins": [
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "HtmlWebpackPlugin_0",
+              "request": "/Users/axin/codes/juejin/webpack/webpack/webpack-demo/node_modules/html-webpack-plugin/lib/loader.js!/Users/axin/codes/juejin/webpack/webpack/webpack-demo/index.html",
+              "reasons": []
+            }
+          ]
+        },
+        {
+          "id": "HtmlWebpackPlugin_1",
+          "rendered": true,
+          "initial": true,
+          "entry": true,
+          "size": 454,
+          "names": [
+            "HtmlWebpackPlugin_1"
+          ],
+          "files": [
+            "__child-HtmlWebpackPlugin_1"
+          ],
+          "hash": "b952505c0d13a30c34de",
+          "siblings": [],
+          "parents": [],
+          "children": [],
+          "childrenByOrder": {},
+          "modules": [
+            {
+              "id": "./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/html-webpack-plugin/default_index.ejs",
+              "identifier": "/Users/axin/codes/juejin/webpack/webpack/webpack-demo/node_modules/html-webpack-plugin/lib/loader.js!/Users/axin/codes/juejin/webpack/webpack/webpack-demo/node_modules/html-webpack-plugin/default_index.ejs",
+              "name": "./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/html-webpack-plugin/default_index.ejs",
+              "index": 1,
+              "index2": 1,
+              "size": 454,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                "HtmlWebpackPlugin_1"
+              ],
+              "issuer": null,
+              "issuerId": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "profile": {
+                "factory": 44,
+                "building": 36
+              },
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "type": "single entry",
+                  "userRequest": "/Users/axin/codes/juejin/webpack/webpack/webpack-demo/node_modules/html-webpack-plugin/lib/loader.js!/Users/axin/codes/juejin/webpack/webpack/webpack-demo/node_modules/html-webpack-plugin/default_index.ejs",
+                  "loc": "HtmlWebpackPlugin_1"
+                }
+              ],
+              "providedExports": null,
+              "optimizationBailout": [],
+              "depth": 0,
+              "source": "var _ = __non_webpack_require__(\"/Users/axin/codes/juejin/webpack/webpack/webpack-demo/node_modules/lodash/lodash.js\");module.exports = function (templateParams) { with(templateParams) {return (function(data) {\nvar __t, __p = '';\n__p += '<!DOCTYPE html>\\n<html>\\n  <head>\\n    <meta charset=\"utf-8\">\\n    <title>' +\n((__t = ( htmlWebpackPlugin.options.title )) == null ? '' : __t) +\n'</title>\\n  </head>\\n  <body>\\n  </body>\\n</html>';\nreturn __p\n})();}}"
+            }
+          ],
+          "filteredModules": 0,
+          "origins": [
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "HtmlWebpackPlugin_1",
+              "request": "/Users/axin/codes/juejin/webpack/webpack/webpack-demo/node_modules/html-webpack-plugin/lib/loader.js!/Users/axin/codes/juejin/webpack/webpack/webpack-demo/node_modules/html-webpack-plugin/default_index.ejs",
+              "reasons": []
+            }
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "id": "./node_modules/html-webpack-plugin/lib/loader.js!./index.html",
+          "identifier": "/Users/axin/codes/juejin/webpack/webpack/webpack-demo/node_modules/html-webpack-plugin/lib/loader.js!/Users/axin/codes/juejin/webpack/webpack/webpack-demo/index.html",
+          "name": "./node_modules/html-webpack-plugin/lib/loader.js!./index.html",
+          "index": 0,
+          "index2": 0,
+          "size": 442,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "HtmlWebpackPlugin_0"
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "profile": {
+            "factory": 42,
+            "building": 34
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "/Users/axin/codes/juejin/webpack/webpack/webpack-demo/node_modules/html-webpack-plugin/lib/loader.js!/Users/axin/codes/juejin/webpack/webpack/webpack-demo/index.html",
+              "loc": "HtmlWebpackPlugin_0"
+            }
+          ],
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 0,
+          "source": "var _ = __non_webpack_require__(\"/Users/axin/codes/juejin/webpack/webpack/webpack-demo/node_modules/lodash/lodash.js\");module.exports = function (templateParams) { with(templateParams) {return (function(data) {\nvar __t, __p = '';\n__p += '<!DOCTYPE html>\\n<html>\\n<head>\\n\t<title>我的网页</title>\\n</head>\\n<body>\\n\t<div id=\"root\"></div>\\n</body>\\n<script type=\"text/javascript\" src=\"./dist/dist.js\"></script>\\n</html>';\nreturn __p\n})();}}"
+        },
+        {
+          "id": "./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/html-webpack-plugin/default_index.ejs",
+          "identifier": "/Users/axin/codes/juejin/webpack/webpack/webpack-demo/node_modules/html-webpack-plugin/lib/loader.js!/Users/axin/codes/juejin/webpack/webpack/webpack-demo/node_modules/html-webpack-plugin/default_index.ejs",
+          "name": "./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/html-webpack-plugin/default_index.ejs",
+          "index": 1,
+          "index2": 1,
+          "size": 454,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "HtmlWebpackPlugin_1"
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "profile": {
+            "factory": 44,
+            "building": 36
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "/Users/axin/codes/juejin/webpack/webpack/webpack-demo/node_modules/html-webpack-plugin/lib/loader.js!/Users/axin/codes/juejin/webpack/webpack/webpack-demo/node_modules/html-webpack-plugin/default_index.ejs",
+              "loc": "HtmlWebpackPlugin_1"
+            }
+          ],
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 0,
+          "source": "var _ = __non_webpack_require__(\"/Users/axin/codes/juejin/webpack/webpack/webpack-demo/node_modules/lodash/lodash.js\");module.exports = function (templateParams) { with(templateParams) {return (function(data) {\nvar __t, __p = '';\n__p += '<!DOCTYPE html>\\n<html>\\n  <head>\\n    <meta charset=\"utf-8\">\\n    <title>' +\n((__t = ( htmlWebpackPlugin.options.title )) == null ? '' : __t) +\n'</title>\\n  </head>\\n  <body>\\n  </body>\\n</html>';\nreturn __p\n})();}}"
+        }
+      ],
+      "filteredModules": 0,
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "HtmlWebpackCompiler"
+    }
+  ]
+}
