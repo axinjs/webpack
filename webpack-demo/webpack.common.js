@@ -8,7 +8,7 @@ const devConfig = require('./webpack.dev')
 
 const commonConfig = {
   entry: {
-    main: './src/jq.js',
+    main: './src/loader-img.js',
   },
   module: { // 模块打包配置
     rules: [ // 新增规则 可以有很多，数组
@@ -23,7 +23,7 @@ const commonConfig = {
           loader: 'file-loader',
           options: {
             name: '[name]_[hash].[ext]',
-            // outputPath: '/images',
+            outputPath: '/images',
             limit: 1024 * 20
           }
         },
@@ -47,11 +47,20 @@ const commonConfig = {
   },
   plugins: [
     new htmlPlugin({
-      template: './index.html'
+      template: './home.html',
+      filename: 'home.html', //生成的文件名字
+      chunks: ['main'] // 需要引入哪些东西
+    }),
+    new htmlPlugin({
+      template: './list.html',
+      filename: 'list.html',
     }),
     new CleanWebpackPlugin(),
     new webpack.ProvidePlugin({
       $: 'jquery'
+    }),
+    new webpack.DefinePlugin({
+      'v': '12345'
     })
   ],
   optimization: {

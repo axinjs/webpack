@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist", // webpack打包的时候，编译目录会放在dist目录下
+    "module": "ES6", // 使用的是es module的方式
+    "target": "ES5", // 打包成es5语法
+    "allowJs": true // 允许ts中引入js文件
+  }
+}

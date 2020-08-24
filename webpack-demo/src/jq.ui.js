@@ -1,3 +1,3 @@
 export function jqui(){
-  $('body').css('background','red')
+  $('body').css('background','white')
 }

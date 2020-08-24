@@ -10,6 +10,8 @@ this is webpack4.0 project.
 
 [大声对webpack4.0说声你好之webpack的高级应用(四)](https://juejin.im/post/5ece5836f265da76e765188e)
 
+[大声对webpack4.0说声你好之webpack的实战配置与优化(五)](https://juejin.im/post/6864546220124143629/)
+
 ---
 
 每节都会上传代码，大家可以一起学习交流。

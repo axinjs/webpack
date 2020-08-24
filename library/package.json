@@ -1,0 +1,26 @@
+{
+  "name": "library",
+  "version": "1.0.0",
+  "description": "this is my library",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "npx webpack"
+  },
+  "keywords": [],
+  "author": "jsxin",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "devDependencies": {
+    "babel-loader": "^8.1.0",
+    "eslint": "^7.2.0",
+    "eslint-loader": "^4.0.2",
+    "ts-loader": "^7.0.5",
+    "typescript": "^3.9.5",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
